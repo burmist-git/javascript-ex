@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test page (head title)</title>
+  </head>
+
+  <body>
+
+    <h1>Test html page</h1>
+    <p> Example of the em : <em> the "em" teg</em> </p>
+    <p> Example of the strong : <strong> the "strong" teg</strong> </p>
+    <p> Example of the strong em mix : <strong><em> the "strong em mix" teg </em></strong> </p>
+    <p> Example of the strong <em> a </em> teg : <a href="http://xkcd.com"> click here </a> </p>
+	
+    <h1>Input example :</h1>
+    <input type="text" disabled>
+    <input type="text">
+    <script>
+    	var message = "Javascript";
+    	console.log(message);
+    	prompt("Example of prompt");
+    	alert("Example of alert");
+    </script>
+    
+    <canvas id="canvas" width="200" height="200"></canvas>
+
+    <script>
+      var canvas = document.getElementById('canvas');
+      var ctx = canvas.getContext("2d");
+      ctx.fillStyle = "Red";
+      ctx.fillRect(0,0,10,10);
+      ctx.fillRect(20,0,10,10);
+      ctx.fillRect(40,0,10,10);
+      ctx.fillRect(10,10,10,10);
+      ctx.fillRect(30,10,10,10);
+      ctx.fillRect(50,10,10,10);
+    </script>
+
+  </body>
+  
+</html>
